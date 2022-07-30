@@ -11,6 +11,7 @@ function TurnHexBlock(num)
 function RefreshCounter()
 {
     document.getElementById("counter").textContent = "あと" + (maxDay - hexCounter) ;
+    document.getElementById("44").textContent = (maxDay - hexCounter) ;
 }
 function ClickHex(id)
 {
