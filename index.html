@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Idoly Pride 合宿</title>
+    <script type="text/javascript" src="hexData.js" ></script>
+    <script type="text/javascript" src="creator.js" ></script>
+    <script type="text/javascript" src="actions.js" ></script>
+    <script type="text/javascript" src="main.js" ></script>
+    <style type="text/css">
+            .row { display: flex;
+                flex-direction: column; }
+            .column { display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center; }
+            .hex_outside {overflow: hidden;
+                width: 115px;
+                height: 100px;
+                transform: rotate(120deg); }
+            .hex_middle {position: absolute;
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                transform: rotate(-60deg); }
+            .hex_center {position: absolute;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transform: rotate(-60deg); }
+            .c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9 { width: 92px; }
+            .hex { padding: 5px 5px 0px 0px; }
+            [value^="GOAL"] { background-color: red; }
+            [value^="オフ"] { background-color: GreenYellow; }
+            [value^="基礎トレ"], [value^="アクセ強化"], [value^="SPトレ"], [value^="撮影"] {
+                background-color: aqua; }
+            [value^="バトル"], [value^="ライブ"] { background-color: orange; }
+            [value^="START"] { background-color: AliceBlue; }
+            [filter="true"] { filter: brightness(70%); }
+            .turnBtn { font-size: 40px;
+                margin: 130px 0px 130px 30px; }
+            #counter { font-size: 50px;}
+            [value^="ボーカル"] { background-color: red; }
+            [value^="ダンス"] { background-color: aqua; }
+            [value^="ビジュアル"] { background-color: orange; }
+    </style>
+</head>
+<body>
+</body>
+</html>
