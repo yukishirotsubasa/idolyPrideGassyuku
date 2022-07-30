@@ -15,8 +15,8 @@
                 align-items: center;
                 justify-content: center; }
             .hex_outside {overflow: hidden;
-                width: 115px;
-                height: 100px;
+                width: 80.5px;
+                height: 70px;
                 transform: rotate(120deg); }
             .hex_middle {position: absolute;
                 overflow: hidden;
@@ -31,7 +31,8 @@
                 justify-content: center;
                 transform: rotate(-60deg); }
             .c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9 { width: 92px; }
-            .hex { padding: 5px 5px 0px 0px; }
+            .hex { padding: 5px 5px 0px 0px;
+                transform: scale(1.43, 1);}
             [value^="GOAL"] { background-color: red; }
             [value^="オフ"] { background-color: GreenYellow; }
             [value^="基礎トレ"], [value^="アクセ強化"], [value^="SPトレ"], [value^="撮影"] {
@@ -40,11 +41,13 @@
             [value^="START"] { background-color: AliceBlue; }
             [filter="true"] { filter: brightness(70%); }
             .turnBtn { font-size: 40px;
-                margin: 130px 0px 130px 30px; }
+                margin: 100px 20px 100px 10px; }
             #counter { font-size: 50px;}
             [value^="ボーカル"] { background-color: red; }
             [value^="ダンス"] { background-color: aqua; }
             [value^="ビジュアル"] { background-color: orange; }
+            .hex_content { transform: scale(1, 2);
+            font-size: 10px;}
     </style>
 </head>
 <body>
