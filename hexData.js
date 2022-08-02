@@ -2,7 +2,7 @@ const options = ["ボーカル","ダンス","ビジュアル"];
 var dataMapping = [[4, 3, 2, 1, 0, 5],
                     [5, 4, 3, 2, 1, 0],
                     [0, 5, 4, 3, 2, 1]];
-var centerDataShift = [0, 1, 2];
+var centerDataShift = [0, 5, 4];
 var hexContent = [[["基礎トレ4","GOAL","基礎トレ4","基礎トレ4"],
                     ["基礎トレ3","SPトレ4","オフ3"],
                     ["オフ1","基礎トレ2"]],
